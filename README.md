@@ -3,7 +3,7 @@
 [basten-process Truss](https://app.baseten.co/models/deploy)
 
 # Steps
-Truss Steps ![screenshot](./archive/ste.png)
+Truss Steps ![screenshot](./archive/steps%20copy.png)
 
 # Testing API on Baseten
 PlayGround ![screenshot](./archive/basten_deploy.png)
