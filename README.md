@@ -9,5 +9,5 @@ Deploy a model [basten-process Truss](https://app.baseten.co/models/deploy)
 Truss Steps ![screenshot](./steps.png)
 
 # Testing API on Baseten
-    PlayGround ![screenshot](./basten_deploy.png)
+PlayGround ![screenshot](./basten_deploy.png)
 
