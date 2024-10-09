@@ -6,4 +6,4 @@ model_name = basten_sdxl_text_2_image
 Deploy a model [basten-process Truss](https://app.baseten.co/models/deploy)
 
 # Steps
-TrussSTeps [steps.png]
+TrussSTeps [alt text](steps.png)
