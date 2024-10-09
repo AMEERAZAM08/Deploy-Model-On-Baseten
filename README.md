@@ -1,9 +1,6 @@
-# deploy-on-basten
+# deploy-on-baseten
 
-model_name = basten_sdxl_text_2_image
-
-
-Deploy a model [basten-process Truss](https://app.baseten.co/models/deploy)
+[basten-process Truss](https://app.baseten.co/models/deploy)
 
 # Steps
 Truss Steps ![screenshot](./archive/steps.png)
