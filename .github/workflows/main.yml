@@ -1,1 +1,35 @@
 
+name: Deploy Model with Truss
+
+on:
+  push:
+    branches:
+      - main  # Change to your preferred branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'  # Adjust as necessary
+
+      - name: Install dependencies (if any)
+        run: |
+          python -m pip install --upgrade pip
+          pip install truss
+
+      - name: Deploy Pushing on Baseten
+        env:
+          API_KEY: ${{ secrets.API_KEY }}  # Correctly pass the API_KEY from secrets
+        run: |
+          echo "Using API Key: $API_KEY"
+          cd baseten_deploy_truss. #add path for workspace
+          export API_KEY=$API_KEY  # Correct the export command to use the actual API key
+          truss login --api-key $API_KEY
+          truss push 
