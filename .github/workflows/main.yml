@@ -29,7 +29,7 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}  # Correctly pass the API_KEY from secrets
         run: |
           echo "Using API Key: $API_KEY"
-          cd baseten_deploy_truss. #add path for workspace
+          cd baseten_deploy_truss #add path for workspace
           export API_KEY=$API_KEY  # Correct the export command to use the actual API key
           truss login --api-key $API_KEY
           truss push 
